@@ -12,7 +12,9 @@ Calculadora calc = new Calculadora();
 // calc.divisão(2, 2);
 // calc.potencia(2, 2);
 
-
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
 
 
 
