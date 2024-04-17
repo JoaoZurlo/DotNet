@@ -4,27 +4,50 @@ using System.Runtime.CompilerServices;
 using DOTNET.Modesls;
 using Models;
 
-Calculadora calc = new Calculadora();
+//Calculadora calc = new Calculadora();
 
 // calc.Somar(5, 30);
 // calc.subtração(10, 50);
 // calc.multiplicação(15, 45);
 // calc.divisão(2, 2);
 // calc.potencia(2, 2);
-
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-
+//calc.Seno(30);
+//calc.Coseno(30);
+//calc.Tangente(30);
 
 
+//INCREMENTO DE NUMERO:
+
+//int numero = 10;
+
+//Console.WriteLine(numero);
+
+//Console.WriteLine("Incremento o 10");
+//numero = numero + 1;
+//numero++; //forma de incrementar 
+
+//Console.WriteLine(numero);
 
 
+//int numeroDecremento = 20;
+
+//Console.WriteLine("Decremento o 20");
+//numero = numero - 1;
+//numeroDecremento--; //forma de decrementar 
+
+//Console.WriteLine(numeroDecremento);
 
 
+//calc.RaizQuadrada(9);
 
+int numero = 10;
 
+Console.WriteLine($"{numero} x 1 = {numero * 1}");
 
+for ( int contador = 0; contador <= 10; contador++ )
+{
+    Console.WriteLine($"{numero} X {contador} = {numero * contador}");
+}
 
 
 
